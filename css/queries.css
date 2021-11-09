@@ -12,10 +12,6 @@
   .heading-primary {
     font-size: 4.4rem;
   }
-
-  .gallery {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 /* ******************** */
@@ -55,6 +51,10 @@
 
   .testimonial-container {
     padding: 9.6rem 3.2rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 

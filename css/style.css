@@ -327,7 +327,7 @@
 }
 
 .testimonial-container {
-  padding: 9.6rem;
+  padding: 6.4rem 9.6rem;
 }
 
 .testimonials {
@@ -359,6 +359,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
   padding: 1.6rem;
+  align-items: center;
 }
 
 .gallery-item {
