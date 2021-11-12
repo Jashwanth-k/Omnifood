@@ -12,6 +12,17 @@
   .heading-primary {
     font-size: 4.4rem;
   }
+
+  .gallery {
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* To remove extra images for suitable layout*/
+  .close-img {
+    position: absolute;
+    left: 9999rem;
+  }
 }
 
 /* ******************** */
@@ -53,8 +64,9 @@
     padding: 9.6rem 3.2rem;
   }
 
-  .gallery {
-    grid-template-columns: repeat(2, 1fr);
+  .close-img2 {
+    position: absolute;
+    left: 9999rem;
   }
 }
 
@@ -125,6 +137,7 @@
 
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {
